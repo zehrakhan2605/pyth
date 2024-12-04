@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript For Loop</title>
+  </head>
+  <body>
+    <h2>JavaScript For Loop</h2>
+    <p id="demo"></p>
+
+    <script>
+      const subjects = [
+        "Discrete Structures & Theory of Logic",
+        "Data Structure",
+        "Cyber Security",
+        "Computer Organization and Architecture",
+        "UHV"
+      ];
+      let text = "";
+      for (let i = 0; i < subjects.length; i++) {
+        text += subjects[i] + "<br>";
+      }
+      document.getElementById("demo").innerHTML = text;
+    </script>
+  </body>
+</html>
